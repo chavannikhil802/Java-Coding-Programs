@@ -1,3 +1,5 @@
+// MENU DRIVEN PROGRAM TO DISPLAY THE USE OF LINKEDLIST
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -6,9 +8,11 @@ public class LinkedListMenu {
         Scanner input = new Scanner(System.in);
         int choice = 0, value = 0, index = 0;
 
+        // CREATE A NEW LINKEDLIST
         LinkedList<Integer> linkedList = new LinkedList<Integer>();
 
         do {
+            //USER MENU
             System.out.println("\n-----------------------------------------------------");
             System.out.println("MENU FOR USING LINKEDLIST FOR INTEGER ELEMENTS ONLY");
             System.out.println("-----------------------------------------------------");
@@ -24,9 +28,11 @@ public class LinkedListMenu {
             System.out.println("10 - EXIT");
             System.out.print("\nEnter your Option : ");
 
+            // ACCEPTING THE OPTION FROM THE USER
             choice = input.nextInt();
 
             switch(choice) {
+                // 1 - Display the Size of LinkedList
                 case 1:
                     System.out.println("\n----------OPTION 1----------\n");
 
@@ -35,6 +41,7 @@ public class LinkedListMenu {
                     System.out.println("\n----------OPTION 1----------\n");
                     break;
 
+                // 2 - Adding elements at the Start of the LinkedList
                 case 2:
                     System.out.println("\n----------OPTION 2----------\n");
 
@@ -45,6 +52,7 @@ public class LinkedListMenu {
                     System.out.println("\n----------OPTION 2----------\n");
                     break;
 
+                // 3 - Adding elements at the End of the LinkedList
                 case 3:
                     System.out.println("\n----------OPTION 3----------\n");
 
@@ -55,6 +63,7 @@ public class LinkedListMenu {
                     System.out.println("\n----------OPTION 3----------\n");
                     break;
 
+                // 4 - Adding elements at any position of the LinkedList
                 case 4:
                     System.out.println("\n----------OPTION 4----------\n");
 
@@ -67,6 +76,7 @@ public class LinkedListMenu {
                     System.out.println("\n----------OPTION 4----------\n");
                     break;
 
+                // 5 - Removing elements from the Start of the LinkedList
                 case 5:
                     System.out.println("\n----------OPTION 5----------\n");
 
@@ -76,6 +86,7 @@ public class LinkedListMenu {
                     System.out.println("\n----------OPTION 5----------\n");
                     break;
 
+                // 6 - Removing elements from the End of the LinkedList
                 case 6:
                     System.out.println("\n----------OPTION 6----------\n");
 
@@ -85,6 +96,7 @@ public class LinkedListMenu {
                     System.out.println("\n----------OPTION 6----------\n");
                     break;
 
+                // 7 - Removing elements from any position of the LinkedList
                 case 7:
                     System.out.println("\n----------OPTION 7----------\n");
 
@@ -95,6 +107,7 @@ public class LinkedListMenu {
                     System.out.println("\n----------OPTION 7----------\n");
                     break;
 
+                // 8 - Update the element of the LinkedList
                 case 8:
                     System.out.println("\n----------OPTION 8----------\n");
 
@@ -108,6 +121,7 @@ public class LinkedListMenu {
                     System.out.println("\n----------OPTION 8----------\n");
                     break;
 
+                // 9 - Display the contents of the LinkedList
                 case 9:
                     System.out.println("\n----------OPTION 9----------\n");
 
@@ -116,7 +130,11 @@ public class LinkedListMenu {
                     System.out.println("\n----------OPTION 9----------\n");
                     break;
 
+                // EXIT
                 case 10: System.out.println("\nTHANK YOU!!!!\n"); break;
+
+                // If any other number is entered
+                default: System.out.println("\nERROR! PLEASE ENTER A VALID OPTION\n"); break;
             }
         }
         while(choice!=10);

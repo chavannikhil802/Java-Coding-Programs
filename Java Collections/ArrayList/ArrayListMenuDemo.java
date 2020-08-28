@@ -1,3 +1,5 @@
+//MENU DRIVEN PROGRAM TO DISPLAY THE USER OF ARRAYLIST
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -7,9 +9,11 @@ public class ArrayListMenuDemo {
         Scanner input = new Scanner(System.in);
         int choice = 0;
 
+        // CREATE A NEW ARRAYLIST
         ArrayList<String> array = new ArrayList<>();
 
         do {
+            //USER MENU
             System.out.println("\n--------------------------------------------------");
             System.out.println("MENU FOR USING ARRAYLIST FOR STRING ELEMENTS ONLY");
             System.out.println("--------------------------------------------------");
@@ -20,10 +24,12 @@ public class ArrayListMenuDemo {
             System.out.println("5 - EXIT");
             System.out.print("\nEnter your Option : ");
 
+            // ACCEPTING THE OPTION FROM THE USER
             choice = input.nextInt();
 
             switch(choice) {
 
+                // 1 - Display the Size of ArrayList
                 case 1: 
                     System.out.println("\n----------OPTION 1----------\n");
 
@@ -32,6 +38,7 @@ public class ArrayListMenuDemo {
                     System.out.println("\n----------OPTION 1----------\n");
                     break;
 
+                // 2 - Adding elements in the ArrayList
                 case 2:
                     System.out.println("\n----------OPTION 2----------\n");
 
@@ -45,6 +52,7 @@ public class ArrayListMenuDemo {
                     System.out.println("\n----------OPTION 2----------\n");
                     break;
 
+                // 3 - Display the contents of the ArrayList
                 case 3:
                     System.out.println("\n----------OPTION 3----------\n");
 
@@ -54,6 +62,7 @@ public class ArrayListMenuDemo {
                     System.out.println("\n----------OPTION 3----------\n");
                     break;
 
+                // 4 - Removing elements from the ArrayList
                 case 4: 
                     System.out.println("\n----------OPTION 4----------\n");
 
@@ -73,8 +82,11 @@ public class ArrayListMenuDemo {
                     System.out.println("\n----------OPTION 4----------\n");
                     break;
 
+                // EXIT
                 case 5: System.out.println("\nTHANK YOU!!!!\n"); break;
 
+                // If any other number is entered
+                default: System.out.println("\nERROR! PLEASE ENTER A VALID OPTION\n"); break;
             }
         }
         while(choice != 5);
