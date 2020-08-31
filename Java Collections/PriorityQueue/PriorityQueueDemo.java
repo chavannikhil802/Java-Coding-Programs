@@ -4,6 +4,7 @@ class PriorityQueueDemo {
     public static void main(String[] args) {
         
         PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>();
+        int a = 1111;
 
         // ADDING ELEMENTS TO THE PRIORITYQUEUE
         pQueue.add(9);
@@ -19,6 +20,7 @@ class PriorityQueueDemo {
         pQueue.add(5);
         pQueue.add(6);
         pQueue.add(0);
+        pQueue.add(a);
 
         // DISPLAYING THE CONTENTS OF THE PRIORITYQUEUE
         System.out.println("Displaying the contents of the PriorityQueue : "+pQueue);
