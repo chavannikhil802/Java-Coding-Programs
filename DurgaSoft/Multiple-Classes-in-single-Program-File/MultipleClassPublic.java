@@ -6,54 +6,62 @@
 
 public class MultipleClassPublic {
     public static void main(String[] args) {
-        System.out.println("In Class MultipleClassPublic of MultipleClassPublic.java");
+        System.out.println("\nIn Class MultipleClassPublic of MultipleClassPublic.java\n");
     }
 }
 class L {
     public static void main(String[] args) {
-        System.out.println("In Main Method of Class L of MultipleClassPublic.java");
+        System.out.println("\nIn Main Method of Class L of MultipleClassPublic.java\n");
     }
 }
 class M {
     public static void main(String[] args) {
-        System.out.println("In Main Method of Class M of MultipleClassPublic.java");
+        System.out.println("\nIn Main Method of Class M of MultipleClassPublic.java\n");
     }
 }
 class N {
     public static void main(String[] args) {
-        System.out.println("In Main Method of Class N of MultipleClassPublic.java");
+        System.out.println("\nIn Main Method of Class N of MultipleClassPublic.java\n");
     }
 }
 class O {
     public static void main(String[] args) {
-        System.out.println("In Main Method of Class O of MultipleClassPublic.java");
+        System.out.println("\nIn Main Method of Class O of MultipleClassPublic.java\n");
     }
 }
 class P {
     public static void main(String[] args) {
-        System.out.println("In Main Method of Class P of MultipleClassPublic.java");
+        System.out.println("\nIn Main Method of Class P of MultipleClassPublic.java\n");
     }
 }
 class Q {
     public static void main(String[] args) {
-        System.out.println("In Main Method of Class Q of MultipleClassPublic.java");
+        System.out.println("\nIn Main Method of Class Q of MultipleClassPublic.java\n");
     }
 }
 
 // OUTPUT:-
 
-// PS D:\Java-Coding\DurgaSoft\Multiple-Classes-in-single-Program-File> javac MultipleClassPublic.java
-// PS D:\Java-Coding\DurgaSoft\Multiple-Classes-in-single-Program-File> java MultipleClassPublic      
-// In Class MultipleClassPublic of MultipleClassPublic.java
-// PS D:\Java-Coding\DurgaSoft\Multiple-Classes-in-single-Program-File> java L
-// In Main Method of Class L of MultipleClassPublic.java
 // PS D:\Java-Coding\DurgaSoft\Multiple-Classes-in-single-Program-File> java M
+
 // In Main Method of Class M of MultipleClassPublic.java
+
 // PS D:\Java-Coding\DurgaSoft\Multiple-Classes-in-single-Program-File> java N
+
 // In Main Method of Class N of MultipleClassPublic.java
+
 // PS D:\Java-Coding\DurgaSoft\Multiple-Classes-in-single-Program-File> java O
+
 // In Main Method of Class O of MultipleClassPublic.java
+
 // PS D:\Java-Coding\DurgaSoft\Multiple-Classes-in-single-Program-File> java P
+
 // In Main Method of Class P of MultipleClassPublic.java
+
 // PS D:\Java-Coding\DurgaSoft\Multiple-Classes-in-single-Program-File> java Q
+
 // In Main Method of Class Q of MultipleClassPublic.java
+
+// PS D:\Java-Coding\DurgaSoft\Multiple-Classes-in-single-Program-File> java MultipleClassPublic
+
+// In Class MultipleClassPublic of MultipleClassPublic.java
