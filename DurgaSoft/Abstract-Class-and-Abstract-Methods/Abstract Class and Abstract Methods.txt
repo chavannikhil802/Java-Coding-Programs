@@ -1,0 +1,25 @@
+Abstract Class and Abstract Method
+
+Abstract Method:-
+
+Abstract Method is a method which has only declaration, but no implementation.
+Means, Abstract Method is only declared in the class, but there is no method body or any business logic present inside that method.
+In this case, the method declaration ends with semi-colon.
+eg: abstract int add(int num1, int num2);
+
+Abstract Class:-
+
+Abstract class is a Partially implemented class, i.e. it consists of abstract method/s, which do not have any implementation.
+We can still declare a class as Abstract Class, even if it does not have any abstract methods.
+However, it becomes mandatory to declare the class as Abstract if it contains even one Abstract Method.
+
+Rules of Abstract Class and Methods:-
+1 - We cannot create any object of an Abstract Class, because it is a Partially implemented Class.
+2 - Since we cannot create an object of an Abstract Class, we cannot access the methods of the class directly.
+3 - In order to access the Abstract Methods, we must create a Child Class of the Abstract Class.
+4 - The Child Class must implement all the abstract methods of the Parent Abstract Class.
+5 - We can access the Abstract Methods of Abstract Class by creating the object of the Child Class of the Parent Class.
+
+In the following program, we have created an Abstract Class named as AbstractArithmeticFunctions, which consists of both, Abstract and Non-Abstract Methods.
+We have then created a Child Class named as ArithmeticFunctions, which implements the Abstract Methods of AbstractArithmeticFunctions.
+We have then created a main class, AbstractClassDemo, whic creates the object of ArithmeticFunctions to implement the Abstract Methods.
